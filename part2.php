@@ -28,6 +28,6 @@ if ($result) {
   readfile($filePath);
   exit;
 } else {
-  echo "No health report found for the provided email.";
+  echo "SORRY NO FILE.";
 }
 ?>
