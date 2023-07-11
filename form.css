@@ -1,0 +1,23 @@
+.healthform {
+      width: 400px;
+      margin: 0 auto;
+    }
+    .healthform label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .healtform input[type="text"],
+    .healtform input[type="number"],
+    .healtform input[type="email"],
+    .healtform input[type="file"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    .healtform input[type="submit"] {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
