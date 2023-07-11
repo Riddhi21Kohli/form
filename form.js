@@ -10,10 +10,10 @@ document.getElementById("healthReportForm").addEventListener("submit", function(
   .then(response => response.text())
   .then(data => {
     console.log(data);
-    alert("Form submitted successfully!");
+    alert("YOUR DATA IS SUBMITTED SUCCESSFULLY");
     document.getElementById("healthReportForm").reset();
   .catch(error => {
-    console.error("An error occurred while submitting the form.", error);
-    alert("An error occurred while submitting the form.");
+    console.error("SORRY!!! THE FORM CANNOT BE SUBMITTED", error);
+    alert("SORRY!!! THE FORM CANNOT BE SUBMITTED.");
   });
 });
