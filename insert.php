@@ -7,7 +7,8 @@ $dbname = "form";
 
 $pdo = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 
-$name = $_POST['name'];
+$fname = $_POST['fname'];
+$lname = $_POST['lname'];
 $age = $_POST['age'];
 $weight = $_POST['weight'];
 $email = $_POST['email'];
